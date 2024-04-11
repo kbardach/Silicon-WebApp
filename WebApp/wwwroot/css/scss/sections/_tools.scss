@@ -1,0 +1,64 @@
+.tools {
+    background-color: var(--color-white);
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+
+    .container {
+        display: block;
+        text-align: center;
+
+
+        .section-title {
+            width: 90%;
+            margin: auto;
+            display: block;
+
+
+            @include xl {
+                p {
+                    width: 60%;
+                    margin: auto;
+                    display: block;
+                }
+            }
+        }
+
+        .tool-features {
+            display: grid;
+            margin-top: 50px;
+            justify-items: center;
+            align-items: center;
+
+            @include md {
+                align-items: center;
+                grid-template-columns: 1fr 1fr;
+            }
+
+            @include xl {
+                margin-top: 70px;
+                display: grid;
+                grid-gap: 50px;
+                align-items: center;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+
+            .tool-box {
+                width: 80%;
+                padding: 15px 0;
+
+                &:hover {
+                    @include shadow-secondary;
+                }
+
+                @include md {
+                    text-align: left;
+                    width: 85%;
+                    margin: 0 auto;
+                    padding: 10px 10px;
+                }
+            }
+        }
+    }
+}
+

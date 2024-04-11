@@ -1,0 +1,85 @@
+section {
+
+    .container-app {
+        background-color: var(--color-gray-100);
+        padding: 50px 0;
+
+
+        @include lg {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .mobile-img {
+            text-align: center;
+
+            img {
+                width: 40%;
+
+                @include lg {
+                    width: 70%;
+                }
+            }
+        }
+
+        .right-info {
+
+            .title {
+
+                h2 {
+                    text-align: center;
+
+                    @include lg {
+                        text-align: left;
+                        width: 40%;
+                        margin-top: 100px;
+                    }
+                }
+            }
+
+            .stores {
+
+
+                @include lg {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    width: 75%;
+                }
+
+
+                .ratings {
+                    text-align: center;
+                    margin-top: -50px;
+                    padding-left: 60px;
+
+                    @include lg {
+                        text-align: left;
+                        padding-left: 0px;
+                    }
+
+                    img {
+                        margin-top: 50px;
+                    }
+                }
+
+                .app-choice {
+                    margin-top: 65px;
+                    text-align: center;
+
+                    a {
+                        margin: 0px 10px;
+
+
+                        @include lg {
+                            margin-bottom: 125px;
+                        }
+
+                        @include xl {
+                            padding-right: 250px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

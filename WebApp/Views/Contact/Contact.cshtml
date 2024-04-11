@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+    ViewData["HeaderBackground"] = "contact-header-background";
+}
+
+<section class="contact-section">
+    <div class="contact-background">
+        <div class="container">
+            <div class="navigation">
+                <a class="#" asp-action="Home" asp-controller="Default"><i class="fa-regular fa-light fa-house"></i>Home</a>
+                <i class="fa-solid fa-chevrons-right"></i> <span>Contact</span>
+            </div>
+
+            <h1>Contact Us</h1>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-block">
+                        <img src="~/images/contact/icon-envelope.svg" alt="Email Icon" class="info-icon" />
+                        <div>
+                            <h4>Email us</h4>
+                            <p>Please feel free to drop us a line. We will respond as soon as possible.</p>
+                            <a asp-action="Contact" asp-controller="Contact" class="info-link">Leave a message<i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="careers-info">
+                    <div class="info-block">
+                        <img src="~/images/contact/icon-user-plus.svg" alt="Careers Icon" class="info-icon" />
+                        <div>
+                            <h4>Careers</h4>
+                            <p>Sit ac ipsum leo lorem magna nunc mattis maecenas non vestibulum.</p>
+                            <a asp-action="Contact" asp-controller="Contact" class="info-link">Send an application<i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="map-container">
+            <img class="map-img" src="~/images/contact/map.svg" />
+            <form class="contact-form">
+                <h3>Get In Contact With Us</h3>
+                <div class="input-group">
+                    <label class="input-label">Full name</label>
+                    <input />
+                    <span></span>
+                </div>
+
+                <div class="input-group">
+                    <label class="input-label">Email address</label>
+                    <input />
+                    <span></span>
+                </div>
+
+                <div class="input-group">
+                    <label class="input-label">Service</label>
+                    <input />
+                    <span></span>
+                </div>
+
+                <div class="input-group">
+                    <label class="input-label">Message</label>
+                    <textarea></textarea>
+                    <span></span>
+                </div>
+
+                <div class="button-send-request">
+                    <button type="submit" class="btn btn-theme">Send Contact Request</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</section>
+
+

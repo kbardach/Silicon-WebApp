@@ -1,0 +1,373 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\_components.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\_components.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\_cores.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\_cores.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\_sections.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\_sections.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\components\\_boxes.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\components\\_boxes.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\components\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\components\\_forms.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\components\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\components\\_switches.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\components\\_switches.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\cores\\_colors.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\cores\\_colors.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\cores\\_fonts.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\cores\\_fonts.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\cores\\_general.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\cores\\_general.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\cores\\_media.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\cores\\_media.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\cores\\_typography.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\cores\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_account-avatar.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_account-avatar.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_account.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_account.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_apps.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_apps.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_contact.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_cookieConsent.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_cookieConsent.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_courses.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_courses.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_details.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_details.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_features.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_features.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_footer.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_header.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_pagination.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_showcase.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_showcase.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_signin.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_signin.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_signup.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_signup.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_subscribe.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_subscribe.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_theme.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_tools.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_tools.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\scss\\sections\\_work.scss",
+      "PackagePath": "staticwebassets\\css\\scss\\sections\\_work.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\site.min.css",
+      "PackagePath": "staticwebassets\\css\\site.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\css\\site.scss",
+      "PackagePath": "staticwebassets\\css\\site.scss"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\Subscribe\\arrows-subscribe.svg",
+      "PackagePath": "staticwebassets\\images\\Subscribe\\arrows-subscribe.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\apps\\appOfTheDay.svg",
+      "PackagePath": "staticwebassets\\images\\apps\\appOfTheDay.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\apps\\appstore.svg",
+      "PackagePath": "staticwebassets\\images\\apps\\appstore.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\apps\\editorsChoice.svg",
+      "PackagePath": "staticwebassets\\images\\apps\\editorsChoice.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\apps\\googleplay.svg",
+      "PackagePath": "staticwebassets\\images\\apps\\googleplay.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\apps\\mobile.svg",
+      "PackagePath": "staticwebassets\\images\\apps\\mobile.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\brands\\brand-logo_1.svg",
+      "PackagePath": "staticwebassets\\images\\brands\\brand-logo_1.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\brands\\brand-logo_2.svg",
+      "PackagePath": "staticwebassets\\images\\brands\\brand-logo_2.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\brands\\brand-logo_3.svg",
+      "PackagePath": "staticwebassets\\images\\brands\\brand-logo_3.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\brands\\brand-logo_4.svg",
+      "PackagePath": "staticwebassets\\images\\brands\\brand-logo_4.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\contact\\icon-envelope.svg",
+      "PackagePath": "staticwebassets\\images\\contact\\icon-envelope.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\contact\\icon-user-plus.svg",
+      "PackagePath": "staticwebassets\\images\\contact\\icon-user-plus.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\contact\\map.svg",
+      "PackagePath": "staticwebassets\\images\\contact\\map.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_1.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_1.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_1_big.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_1_big.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_2.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_2.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_3.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_3.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_4.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_4.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_5.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_5.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_6.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_6.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_7.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_7.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_8.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_8.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\courses\\course_9.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\course_9.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\courses\\illustration.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\illustration.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\courses\\search.svg",
+      "PackagePath": "staticwebassets\\images\\courses\\search.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\features\\features-logo1.svg",
+      "PackagePath": "staticwebassets\\images\\features\\features-logo1.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\features\\features-logo2.svg",
+      "PackagePath": "staticwebassets\\images\\features\\features-logo2.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\features\\features-logo3.svg",
+      "PackagePath": "staticwebassets\\images\\features\\features-logo3.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\features\\features-logo4.svg",
+      "PackagePath": "staticwebassets\\images\\features\\features-logo4.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\features\\features-logo5.svg",
+      "PackagePath": "staticwebassets\\images\\features\\features-logo5.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\features\\features-logo6.svg",
+      "PackagePath": "staticwebassets\\images\\features\\features-logo6.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\logos\\silicon-logo.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\silicon-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\silicon.svg",
+      "PackagePath": "staticwebassets\\images\\silicon.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\taskmaster\\taskmaster-twisted.svg",
+      "PackagePath": "staticwebassets\\images\\taskmaster\\taskmaster-twisted.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\theme\\arrow.svg",
+      "PackagePath": "staticwebassets\\images\\theme\\arrow.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\theme\\arrow1.svg",
+      "PackagePath": "staticwebassets\\images\\theme\\arrow1.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\theme\\mockup.svg",
+      "PackagePath": "staticwebassets\\images\\theme\\mockup.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\tools\\cam.svg",
+      "PackagePath": "staticwebassets\\images\\tools\\cam.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\tools\\dropbox.svg",
+      "PackagePath": "staticwebassets\\images\\tools\\dropbox.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\tools\\evernote.svg",
+      "PackagePath": "staticwebassets\\images\\tools\\evernote.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\tools\\gmail.svg",
+      "PackagePath": "staticwebassets\\images\\tools\\gmail.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\tools\\google.svg",
+      "PackagePath": "staticwebassets\\images\\tools\\google.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\tools\\mailChimp.svg",
+      "PackagePath": "staticwebassets\\images\\tools\\mailChimp.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\tools\\slack.svg",
+      "PackagePath": "staticwebassets\\images\\tools\\slack.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\tools\\trello.svg",
+      "PackagePath": "staticwebassets\\images\\tools\\trello.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\images\\work\\work.svg",
+      "PackagePath": "staticwebassets\\images\\work\\work.svg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\uploads\\avatar.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\uploads\\p_ce6bb7e4-ee72-4b9e-b398-893d59217ccb_d4e05ffc-9595-40dd-a169-f4b7c0a51e86.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\p_ce6bb7e4-ee72-4b9e-b398-893d59217ccb_d4e05ffc-9595-40dd-a169-f4b7c0a51e86.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\uploads\\p_ce6bb7e4-ee72-4b9e-b398-893d59217ccb_f34ee551-54e9-4522-9fe1-4fd03b24025a.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\p_ce6bb7e4-ee72-4b9e-b398-893d59217ccb_f34ee551-54e9-4522-9fe1-4fd03b24025a.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\uploads\\p_e930a3ef-6d58-43ab-90a8-2e6f7da6b7d3_1596b3da-c500-4c1c-b2c8-e1d6f55bb01d.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\p_e930a3ef-6d58-43ab-90a8-2e6f7da6b7d3_1596b3da-c500-4c1c-b2c8-e1d6f55bb01d.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\uploads\\p_e930a3ef-6d58-43ab-90a8-2e6f7da6b7d3_35777bfd-dc81-4c4a-b563-1c56b6ff0893.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\p_e930a3ef-6d58-43ab-90a8-2e6f7da6b7d3_35777bfd-dc81-4c4a-b563-1c56b6ff0893.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\uploads\\p_e930a3ef-6d58-43ab-90a8-2e6f7da6b7d3_35e31e33-d617-4e30-ab90-8db460334808.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\p_e930a3ef-6d58-43ab-90a8-2e6f7da6b7d3_35e31e33-d617-4e30-ab90-8db460334808.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\uploads\\p_e930a3ef-6d58-43ab-90a8-2e6f7da6b7d3_4da50976-8f8c-4db0-bb7f-3e6603419648.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\p_e930a3ef-6d58-43ab-90a8-2e6f7da6b7d3_4da50976-8f8c-4db0-bb7f-3e6603419648.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\uploads\\p_e930a3ef-6d58-43ab-90a8-2e6f7da6b7d3_a0f40358-ecbb-4eb9-a058-4dcfa0c247f4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\p_e930a3ef-6d58-43ab-90a8-2e6f7da6b7d3_a0f40358-ecbb-4eb9-a058-4dcfa0c247f4.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebApp.props",
+      "PackagePath": "build\\WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApp.props",
+      "PackagePath": "buildMultiTargeting\\WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebApp.props",
+      "PackagePath": "buildTransitive\\WebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

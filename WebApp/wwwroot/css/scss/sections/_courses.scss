@@ -1,0 +1,259 @@
+.courses {
+    margin-bottom: 100px;
+
+    .container {
+
+        .navigation {
+            font-size: 14px;
+
+            a {
+                text-decoration: none;
+                color: var(--color-gray-600);
+
+                .fa-regular {
+                    margin-right: 4px;
+                }
+            }
+
+            .fa-solid {
+                font-size: 10px;
+                color: var(--color-gray-600);
+                margin: 0 5px;
+            }
+
+            span {
+                color: var(--color-theme);
+            }
+        }
+
+
+
+        .header {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+
+            @include md {
+                flex-direction: row;
+            }
+
+            h1 {
+            }
+
+
+            .filters {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                @include md {
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    align-items: center;
+                    gap: 1.5rem;
+                    z-index: 15;
+                }
+
+                select {
+                    position: relative;
+                    min-width: 241px;
+
+                    .option {
+                        padding: 10px;
+                        cursor: pointer;
+                    }
+                }
+
+                input {
+                    height: 44px; /*Tillagd*/
+                }
+
+                .input-search-group {
+                    display: flex;
+                    align-items: center;
+
+                    @include xs {
+                    }
+                }
+
+                .input-search-group input {
+                    margin-left: auto;
+
+                    @include xs {
+                    }
+                }
+            }
+        }
+
+        .items {
+            display: grid;
+            grid-template-columns: 1fr;
+
+            @include md {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 2rem;
+            }
+
+            .course {
+                position: relative;
+                display: block;
+                border-radius: 8px;
+                overflow: hidden;
+                text-decoration: none;
+                box-shadow: 0 0 14px -4px var(--color-gray-500);
+                color: var(--color-gray-700);
+
+                &:hover {
+                    box-shadow: 0 0 14px -4px var(--color-gray-900);
+                }
+
+                .bestseller {
+                    position: absolute;
+                    top: 1rem;
+                    left: 1rem;
+                    background-color: var(--color-success-dark);
+                    color: var(--color-white);
+                    padding: 4px 12px;
+                    border-radius: 4px;
+                }
+
+                .bookmark {
+                    position: absolute;
+                    top: 1rem;
+                    right: 1rem;
+                    z-index: 0;
+
+                    &:hover {
+                        border: 1px solid var(--color-gray-800);
+                        background-color: var(--color-gray-800);
+                        color: var(--color-gray-100);
+                        text-decoration: none;
+                    }
+                }
+
+                img {
+                    width: 100%;
+                }
+
+                .content {
+                    padding: 1rem 2rem;
+
+                    .title {
+                        font-size: 20px;
+                    }
+
+                    .author {
+                        font-size: 14px;
+                        margin: 0.5rem 0;
+                    }
+
+                    .pricing {
+                        display: flex;
+                        gap: 1rem;
+                        font-size: 18px;
+                        font-weight: 600;
+
+                        .discount {
+                            color: var(--color-danger-dark);
+                            font-size: 18px;
+                            font-weight: 600;
+                        }
+
+                        .original {
+                            color: var(--color-theme);
+                            font-size: 18px;
+                            font-weight: 600;
+                        }
+
+                        .discount-enabled {
+                            color: var(--color-gray-600);
+                            text-decoration: line-through;
+                            font-size: 18px;
+                            font-weight: 400;
+                        }
+                    }
+
+                    .footer {
+                        color: var(--color-gray-600);
+                        border-top: 1px solid var(--color-gray-400);
+                        display: flex;
+                        gap: 2rem;
+                        margin-top: 1rem;
+                        padding-top: 1rem;
+
+
+                        .hours {
+                            i {
+                                margin-right: 5px;
+                            }
+                        }
+
+                        .likes {
+                            i {
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.section-skills {
+
+    .container {
+
+        .skills-container {
+            display: flex;
+            flex-direction: column-reverse;
+            background-color: var(--color-gray-100);
+            padding-top: 30px;
+            padding-bottom: 30px;
+
+            @include md {
+                flex-direction: row;
+                justify-content: space-around;
+            }
+
+            .text-container {
+                margin-top: 50px;
+                margin-left: 80px;
+
+                p {
+                    font-size: 20px;
+                    color: var(--color-gray- 700);
+                    margin-bottom: -10px;
+                }
+
+                h2 {
+
+
+                    @include md {
+                        width: 70%;
+                    }
+
+                    span {
+                        color: var(--color-theme);
+                    }
+                }
+
+                a {
+                }
+            }
+
+            .img-container {
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

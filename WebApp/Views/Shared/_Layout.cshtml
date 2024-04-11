@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        @(!string.IsNullOrEmpty(ViewData["Title"]?.ToString()) 
+        ? ViewData["Title"] + " | Silicon" 
+        : "Silicon")
+    </title> 
+
+    <link rel="icon" href="~/images/silicon.svg" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+
+
+<body> 
+
+    <div class="wrapper">
+
+        @*Header är tillagd för att bakrundfärgen ska gå över headern i contact *@
+        <header class="@(ViewData["HeaderBackground"]?.ToString())">
+            <partial name="~/Views/Partials/Sections/_Header.cshtml" />
+        </header>
+
+        <main>
+            @RenderBody()
+        </main>
+
+        <partial name="~/Views/Partials/Sections/_Footer.cshtml" />
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/a041cc045c.js" asp-append-version="true" crossorigin="Anonymous"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <partial name="_CookieConsent.cshtml" />
+</body>
+</html>

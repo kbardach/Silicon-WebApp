@@ -1,0 +1,78 @@
+.showcase {
+    padding-bottom: 50px;
+
+    .container {
+        padding-bottom: 20px;
+
+        @include md {
+            padding-bottom: 50px;
+        }
+
+        @include xl {
+            padding-bottom: 120px;
+        }
+
+        p {
+            margin-bottom: -40px;
+        }
+
+        .showcase-img-taskmaster {
+            position: absolute;
+            width: 400px;
+            right: 0;
+            z-index: -20;
+
+            @include lg {
+                width: 550px;
+            }
+
+            @include xl {
+                width: 650px;
+            }
+
+            @include xxl {
+                width: 750px;
+            }
+        }
+
+        .content {
+            padding-top: 360px;
+            text-align: center;
+
+            @include md {
+                padding-top: 20px;
+                text-align: left;
+                width: 50%;
+            }
+
+            @include lg {
+                padding-top: 20px;
+                width: 45%;
+            }
+
+            .get-started {
+                margin: 45px 0;
+                margin-bottom: 25px;
+
+                @include md {
+                    margin-bottom: 20px;
+                }
+
+                @include xl {
+                    margin-bottom: 50px;
+                }
+            }
+
+            .brands {
+                position: static;
+                width: 100%;
+
+                @include md {
+                    position: relative;
+                    width: 200%;
+                    z-index: -20;
+                }
+            }
+        }
+    }
+}

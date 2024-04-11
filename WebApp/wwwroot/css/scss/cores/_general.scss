@@ -1,0 +1,80 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+body {
+    @include font-standard;
+ 
+    background-color: var(--color-white);
+    color: var(--color-gray-900);
+    margin: 0;
+}
+
+a {
+    @include font-standard;
+    color: var(--color-theme);
+    font-size: 1em;
+    display: inline-block;
+
+    &:active,
+    &:visited,
+    &:focus,
+    &:hover {
+        color: var(--color-theme);
+    }
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.nav-link {
+    @include font-semibold;
+    color: var(--color-gray-900);
+    text-decoration: none;
+    font-size: 1em;
+    display: inline-block;
+
+    &:active,
+    &.active,
+    &:hover {
+        color: var(--color-theme);
+        text-decoration: underline;
+    }
+
+}
+
+
+.wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    @include sm {
+        max-width: 540px;
+    }
+
+    @include md {
+        max-width: 768px;
+    }
+
+    @include lg {
+        max-width: 960px;
+    }
+
+    @include xl {
+        max-width: 1140px;
+    }
+
+    @include xxl {
+        max-width: 1320px;
+    }
+}
