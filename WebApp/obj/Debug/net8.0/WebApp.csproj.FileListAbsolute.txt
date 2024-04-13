@@ -228,3 +228,4 @@ C:\Users\kimba\OneDrive\Desktop\Skola\Nackademin-Webbutvecklare.NET\7-ASP.NET\Ex
 C:\Users\kimba\OneDrive\Desktop\Skola\Nackademin-Webbutvecklare.NET\7-ASP.NET\Examination_Project\Examination-project_Play\Silicon\WebApp\obj\Debug\net8.0\WebApp.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\kimba\OneDrive\Desktop\Skola\Nackademin-Webbutvecklare.NET\7-ASP.NET\Examination_Project\Examination-project_Play\Silicon\WebApp\obj\Debug\net8.0\WebApp.csproj.Up2Date
 C:\Users\kimba\OneDrive\Desktop\Skola\Nackademin-Webbutvecklare.NET\7-ASP.NET\Examination_Project\Examination-project_Play\Silicon\WebApp\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\kimba\OneDrive\Desktop\Skola\Nackademin-Webbutvecklare.NET\7-ASP.NET\Examination_Project\Examination-project_Play\Silicon\WebApp\obj\Debug\net8.0\WebApp.sourcelink.json

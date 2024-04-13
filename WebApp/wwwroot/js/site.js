@@ -1,32 +1,5 @@
 ﻿
 /*============================= HAMBURGER MENU =================================*/
-//document.addEventListener("DOMContentLoaded", () => {
-//    let btnMenu = document.querySelector(".btn-menu");
-//    let nav = document.querySelector("nav");
-
-//    // Tillagd för att gömma switchen i burgar menyn vi MD skärm
-//    let container = document.querySelector(".container");
-
-//    btnMenu.addEventListener("click", () => {
-//        btnMenu.classList.toggle("active");
-//        btnMenu.classList.toggle("fixed");
-//        nav.classList.toggle("active");
-
-//        // Tillagd för att gömma switchen i burgar menyn vi MD skärm
-//        container.classList.toggle("menu-active");
-//    });
-
-//    window.addEventListener("resize", () => {
-//        btnMenu.classList.remove("active");
-//        btnMenu.classList.remove("fixed");
-//        nav.classList.remove("active");
-
-//        // Tillagd för att gömma switchen i burgar menyn vi MD skärm
-//        if (container.classList.contains("menu-active")) {
-//            container.classList.remove("menu-active");
-//        }
-//    });
-//});
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -36,19 +9,16 @@ document.addEventListener("DOMContentLoaded", () => {
     let accountButtons = document.querySelector(".account-buttons");
     let profile = document.querySelector(".profile");
 
-    // Funktion för att växla visning av meny, konto-knappar och profil
     function toggleMenu() {
         btnMenu.classList.toggle("active");
         btnMenu.classList.toggle("fixed");
         nav.classList.toggle("active");
         container.classList.toggle("menu-active");
 
-        // Om användaren är inloggad, visa profilbild i menyn
         if (profile) {
             profile.classList.toggle("active");
         }
 
-        // Visa inloggnings-/registreringsknapparna i menyn
         if (accountButtons) {
             accountButtons.classList.toggle("active");
         }
@@ -76,6 +46,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 /*============================= FORM VALIDATION ================================*/
+
+
 let forms = document.querySelectorAll("form");
 if (forms.length > 0) { // La till denna för att se om det minst finns ett fält att fylla i (även för dark/light mode)även för dark/light mode
     let inputs = forms[0].querySelectorAll("input");
@@ -152,6 +124,7 @@ const passwordValidation = (e) => {
 
 /*============================ SWITCH-LIGHT-DARK-MODE ====================================*/
 
+
 document.addEventListener("DOMContentLoaded", () => {
     const savedTheme = localStorage.getItem("theme") || "";
     document.documentElement.setAttribute("data-theme", savedTheme);
@@ -174,6 +147,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 /*================================= DROP-DOWN-MENU =======================================*/
 
+
 document.addEventListener("DOMContentLoaded", function () {
     select()
     search()
@@ -181,29 +155,92 @@ document.addEventListener("DOMContentLoaded", function () {
 })
 
 function select() {
-    try {
-        let select = document.querySelector(".select")
-        let selected = select.querySelector(".selected")
-        let selectOptions = select.querySelector(".select-options")
+    let select = document.querySelector(".select");
+    let selected = select.querySelector(".selected");
+    let selectOptions = select.querySelector(".select-options");
+    let hiddenInput = document.getElementById("serviceInput");
+    let isContactPage = document.body.classList.contains('contact-page');
 
-        selected.addEventListener("click", function () {
-            selectOptions.style.display = (selectOptions.style.display === "block") ? "none" : "block"
-        })
+    selected.addEventListener("click", function () {
+        selectOptions.style.display = (selectOptions.style.display === "block") ? "none" : "block";
+    });
 
-        let options = selectOptions.querySelectorAll(".option")
-        options.forEach(function (option) {
-            option.addEventListener("click", function () {
-                selected.innerHTML = this.textContent
-                selectOptions.style.display = "none"
-                let category = this.getAttribute("data-value")
+    let options = selectOptions.querySelectorAll(".option");
+    options.forEach(function (option) {
+        option.addEventListener("click", function () {
+            selected.innerHTML = this.textContent;
+            selectOptions.style.display = "none";
+            let category = this.getAttribute("data-value");
 
-                updateCoursesByFilter(category)
-            })
-        })
+            if (isContactPage) {
 
-    }
-    catch { }
+                hiddenInput.value = category;
+            }
+            else {
+
+                updateCoursesByFilter(category);
+            }
+        });
+    });
 }
+
+
+/*FUNGERAR PÅ CONTACT*/
+//function select() {
+//    let select = document.querySelector(".select");
+//    let selected = select.querySelector(".selected");
+//    let selectOptions = select.querySelector(".select-options");
+//    let hiddenInput = document.querySelector('input[name="Service"]');
+
+//    selected.addEventListener("click", function () {
+//        selectOptions.style.display = (selectOptions.style.display === "block") ? "none" : "block";
+//    });
+
+//    let options = selectOptions.querySelectorAll(".option");
+//    options.forEach(function (option) {
+//        option.addEventListener("click", function () {
+//            selected.innerHTML = this.textContent;
+//            selectOptions.style.display = "none";
+//            let category = this.getAttribute("data-value");
+//            hiddenInput.value = category; 
+//        });
+//    });
+//}
+
+/*FUNGERAR PÅ Courses*/
+//function select() {
+//    try {
+//        let select = document.querySelector(".select")
+//        let selected = select.querySelector(".selected")
+//        let selectOptions = select.querySelector(".select-options")
+
+//        selected.addEventListener("click", function () {
+//            selectOptions.style.display = (selectOptions.style.display === "block") ? "none" : "block"
+//        })
+
+//        let options = selectOptions.querySelectorAll(".option")
+//        options.forEach(function (option) {
+//            option.addEventListener("click", function () {
+//                selected.innerHTML = this.textContent
+//                selectOptions.style.display = "none"
+//                let category = this.getAttribute("data-value")
+
+//                options.forEach(function (option) {
+//                    option.addEventListener("click", function () {
+//                        selected.innerHTML = this.textContent;
+//                        selectOptions.style.display = "none";
+//                        let category = this.getAttribute("data-value");
+//                        document.querySelector('input[name="Service"]').value = category;
+//                    })
+//                })
+
+//                updateCoursesByFilter(category)
+//            })
+//        })
+
+//    }
+//    catch { }
+//}
 
 /*========================================================================================*/
 

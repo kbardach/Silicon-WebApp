@@ -12,3 +12,4 @@ C:\Users\kimba\OneDrive\Desktop\Skola\Nackademin-Webbutvecklare.NET\7-ASP.NET\Ex
 C:\Users\kimba\OneDrive\Desktop\Skola\Nackademin-Webbutvecklare.NET\7-ASP.NET\Examination_Project\Examination-project_Play\Silicon\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 C:\Users\kimba\OneDrive\Desktop\Skola\Nackademin-Webbutvecklare.NET\7-ASP.NET\Examination_Project\Examination-project_Play\Silicon\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
 C:\Users\kimba\OneDrive\Desktop\Skola\Nackademin-Webbutvecklare.NET\7-ASP.NET\Examination_Project\Examination-project_Play\Silicon\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\kimba\OneDrive\Desktop\Skola\Nackademin-Webbutvecklare.NET\7-ASP.NET\Examination_Project\Examination-project_Play\Silicon\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json

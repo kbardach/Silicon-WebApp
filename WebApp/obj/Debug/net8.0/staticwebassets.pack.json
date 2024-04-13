@@ -325,32 +325,8 @@
       "PackagePath": "staticwebassets\\uploads\\avatar.jpg"
     },
     {
-      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\uploads\\p_ce6bb7e4-ee72-4b9e-b398-893d59217ccb_d4e05ffc-9595-40dd-a169-f4b7c0a51e86.jpeg",
-      "PackagePath": "staticwebassets\\uploads\\p_ce6bb7e4-ee72-4b9e-b398-893d59217ccb_d4e05ffc-9595-40dd-a169-f4b7c0a51e86.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\uploads\\p_ce6bb7e4-ee72-4b9e-b398-893d59217ccb_f34ee551-54e9-4522-9fe1-4fd03b24025a.jpeg",
-      "PackagePath": "staticwebassets\\uploads\\p_ce6bb7e4-ee72-4b9e-b398-893d59217ccb_f34ee551-54e9-4522-9fe1-4fd03b24025a.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\uploads\\p_e930a3ef-6d58-43ab-90a8-2e6f7da6b7d3_1596b3da-c500-4c1c-b2c8-e1d6f55bb01d.jpeg",
-      "PackagePath": "staticwebassets\\uploads\\p_e930a3ef-6d58-43ab-90a8-2e6f7da6b7d3_1596b3da-c500-4c1c-b2c8-e1d6f55bb01d.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\uploads\\p_e930a3ef-6d58-43ab-90a8-2e6f7da6b7d3_35777bfd-dc81-4c4a-b563-1c56b6ff0893.jpeg",
-      "PackagePath": "staticwebassets\\uploads\\p_e930a3ef-6d58-43ab-90a8-2e6f7da6b7d3_35777bfd-dc81-4c4a-b563-1c56b6ff0893.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\uploads\\p_e930a3ef-6d58-43ab-90a8-2e6f7da6b7d3_35e31e33-d617-4e30-ab90-8db460334808.jpeg",
-      "PackagePath": "staticwebassets\\uploads\\p_e930a3ef-6d58-43ab-90a8-2e6f7da6b7d3_35e31e33-d617-4e30-ab90-8db460334808.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\uploads\\p_e930a3ef-6d58-43ab-90a8-2e6f7da6b7d3_4da50976-8f8c-4db0-bb7f-3e6603419648.jpeg",
-      "PackagePath": "staticwebassets\\uploads\\p_e930a3ef-6d58-43ab-90a8-2e6f7da6b7d3_4da50976-8f8c-4db0-bb7f-3e6603419648.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\uploads\\p_e930a3ef-6d58-43ab-90a8-2e6f7da6b7d3_a0f40358-ecbb-4eb9-a058-4dcfa0c247f4.jpg",
-      "PackagePath": "staticwebassets\\uploads\\p_e930a3ef-6d58-43ab-90a8-2e6f7da6b7d3_a0f40358-ecbb-4eb9-a058-4dcfa0c247f4.jpg"
+      "Id": "C:\\Users\\kimba\\OneDrive\\Desktop\\Skola\\Nackademin-Webbutvecklare.NET\\7-ASP.NET\\Examination_Project\\Examination-project_Play\\Silicon\\WebApp\\wwwroot\\uploads\\p_9735512c-588c-4cc6-8453-f0880fd77308_2366af8b-5775-4b77-9b9f-fd6e9d7e5c99.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\p_9735512c-588c-4cc6-8453-f0880fd77308_2366af8b-5775-4b77-9b9f-fd6e9d7e5c99.jpeg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
