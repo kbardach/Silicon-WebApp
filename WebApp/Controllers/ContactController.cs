@@ -48,7 +48,6 @@ public class ContactController(HttpClient http) : Controller
                 return RedirectToAction("Contact", "Contact");
             }
 
-            //LÄGG TILL VIEWDATA
 
         }
         return View("Contact", model);

@@ -94,30 +94,3 @@
 
 
 
-
-
-
-@* <div class="input-group">
-    <label asp-for="Service" class="input-label">Service (optional)</label>
-    <select asp-for="Service" asp-items="@(new SelectList(Model.Categories, "CategoryName", "CategoryName"))" class="form-control">
-        <option value="">Choose the service you are interested in</option>
-    </select>
-    <span asp-validation-for="Service" class="text-danger"></span>
-</div> *@
-
-
-
-@* <label class="input-label">Service<span> (optional)</span></label>
-<div class="select">
-    <div class="selected">Service</div>
-    <div class="select-options">
-        <div class="option" data-value="all">All categories</div>
-        @if (Model.Categories != null)
-        {
-            @foreach (var category in Model.Categories)
-            {
-                <div class="option" data-value="@category.CategoryName">@category.CategoryName</div>
-            }
-        }
-    </div>
-</div> *@

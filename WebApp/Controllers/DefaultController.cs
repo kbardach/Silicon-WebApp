@@ -23,14 +23,6 @@ namespace WebApp.Controllers
         }
         #endregion
 
-
-        //#region Courses
-        //[Route("/courses")]
-        //public IActionResult Courses()
-        //{
-        //    return View();
-        //}
-        //#endregion
     }
 }
 

@@ -47,18 +47,3 @@ public class SignUpViewModel
     public bool TermsAndConditions { get; set; }
 
 }
-
-
-/*
- 
-[MinLength(8, ErrorMessage = "A valid password is required")]
-[DataType(DataType.Password)]
- 
-
-[Compare(nameof(Password), ErrorMessage = "Passwrod don't match")]
-[DataType(DataType.Password)] 
- 
-[Display(Name = "I agree to the terms & Conditions")]
-[Required(ErrorMessage = "You must accept the terms and conditions")]
-
- */

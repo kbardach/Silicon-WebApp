@@ -297,9 +297,6 @@ btn-small {
   margin-right: 1rem;
 }
 .btn:hover {
-  /*      border: 1px solid var(--color-gray-800);
-  background-color: var(--color-gray-800);
-  color: var(--color-gray-100);*/
   text-decoration: none;
   color: var(--color-theme) !important;
   background-color: var(--color-white);
@@ -401,7 +398,6 @@ btn-small {
 form {
   display: grid;
   width: 100%;
-  /*======================= TILLAGDA =============================*/
 }
 form .input-label {
   font-family: "Manrope", sans-serif;
@@ -473,7 +469,7 @@ form .select .selected {
   padding: 8px 16px;
   border-radius: 8px;
   border: 1px solid var(--color-gray-400);
-  color: var(--color-gray-700); /* TILLAGD EFTER!!*/
+  color: var(--color-gray-700);
   cursor: pointer;
 }
 form .select .select-options {
@@ -682,155 +678,6 @@ header .profile .image form label {
   right: 0;
 }
 
-/*header {
-    padding: 15px 0;
-
-    .container {
-        display: grid;
-        align-items: center;
-        gap: 40px;
-        grid-template-columns: 1fr auto;
-        grid-template-areas: "logo hamburger";
-
-        @include md {
-            grid-template-columns: 1fr auto auto;
-            grid-template-areas: "logo switch hamburger";
-        }
-
-        @include xl {
-            grid-template-columns: auto 1fr auto auto;
-            grid-template-areas: "logo nav switch account";
-        }
-
-        .logo {
-            grid-area: logo;
-        }
-
-        nav {
-            grid-area: nav;
-            display: none;
-            padding-top: 100px;
-
-            a {
-                display: block;
-                text-decoration: none;
-                text-align: center;
-                padding: 20px;
-                font-weight: 700;
-                color: var(--color-white);
-
-                &:hover {
-                    color: var(--color-theme);
-                    text-decoration: underline;
-                }
-
-                @include xl {
-                    padding: 0;
-                    color: var(--color-gray-800);
-                }
-            }
-
-            @include xl {
-                display: flex;
-                gap: 20px;
-                padding-top: 0;
-            }
-
-            &.active {
-                display: block;
-                background-color: var(--color-gray-800);
-                position: fixed;
-                top: 0;
-                right: 0;
-                height: 100%;
-                width: 100%;
-                z-index: 20;
-
-                @include md {
-                    width: 35%;
-                    z-index: 20;
-                }
-            }
-        }
-
-        .theme-switch {
-            grid-area: switch;
-            display: none;
-
-            @include md {
-                display: block;
-            }
-        }
-
-        .account-buttons {
-            grid-area: account;
-            display: none;
-            gap: 16px;
-
-            @include xl {
-                display: flex;
-            }
-
-            &.active {
-                display: block;
-            }
-        }
-
-        .btn-menu {
-            display: block;
-            grid-area: hamburger;
-            z-index: 20;
-
-            @include xl {
-                display: none;
-            }
-        }
-    }
-
-
-
-    .container.menu-active .theme-switch {
-        display: none;
-    }
-
-
-    .profile {
-        display: none;
-
-        @include xl {
-            display: flex;
-            justify-content: center;
-        }
-
-        &.active {
-            display: block;
-        }
-
-
-
-        .image {
-            position: relative;
-
-            img {
-                border-radius: 50%;
-                height: 60px;
-                width: 60px;
-                object-fit: cover;
-                border: 1px solid var(--color-gray-400);
-            }
-
-            form {
-                position: relative;
-
-                label {
-                    position: absolute;
-                    bottom: 10px;
-                    right: 0;
-                }
-            }
-        }
-    }
-}*/
 .showcase {
   padding-bottom: 50px;
 }
@@ -1544,7 +1391,7 @@ footer .container .copyright span {
   cursor: pointer;
 }
 .courses .container .header .filters input {
-  height: 44px; /*Tillagd*/
+  height: 44px;
 }
 .courses .container .header .filters .input-search-group {
   display: flex;
@@ -1819,11 +1666,11 @@ footer .container .copyright span {
   text-align: center;
 }
 .account-profile .info h3 {
-  margin-top: 5px; /*TILLAGD*/
-  margin-bottom: -15px; /*TILLAGD*/
+  margin-top: 5px;
+  margin-bottom: -15px;
 }
 .account-profile .info p {
-  color: var(--color-gray-600); /*TILLAGD*/
+  color: var(--color-gray-600);
 }
 .account-profile .info .displayname {
   font-size: 1.3em;
@@ -2031,6 +1878,12 @@ footer .container .copyright span {
     z-index: 10;
   }
 }
+.contact-section .contact-background .map-container .contact-form h3 {
+  color: var(--color-black);
+}
+.contact-section .contact-background .map-container .contact-form label {
+  color: var(--color-black);
+}
 .contact-section .contact-background .map-container .contact-form span {
   color: var(--color-gray-600);
 }
@@ -2046,134 +1899,6 @@ footer .container .copyright span {
   padding: 25px 0px;
 }
 
-/*.contact-header-background {
-    background-color: var(--color-gray-100);
-}
-
-
-.contact-section {
-
-    .contact-background {
-        background-color: var(--color-gray-100);
-        max-width: 100%;
-
-
-        .container {
-
-            .navigation {
-                font-size: 14px;
-
-                a {
-                    text-decoration: none;
-                    color: var(--color-gray-600);
-
-                    .fa-regular {
-                        margin-right: 4px;
-                    }
-                }
-
-                .fa-solid {
-                    font-size: 10px;
-                    color: var(--color-gray-600);
-                    margin: 0 5px;
-                }
-
-                span {
-                    color: var(--color-theme);
-                }
-            }
-
-            .contact-container {
-                padding-bottom: 100px;
-
-                .contact-info, .careers-info {
-
-                    .info-block {
-                        display: flex;
-                        margin-bottom: 20px;
-
-                        img {
-                            margin-right: 20px;
-                            margin-top: -35px;
-                        }
-
-                        div {
-
-                            h4 {
-                            }
-
-                            p {
-                                width: 70%;
-                                margin-top: -20px;
-                                margin-bottom: 10px;
-                                color: var(--color-gray-700);
-                            }
-
-                            .info-link {
-                                @include font-semibold;
-                                text-decoration: none;
-
-                                .fa-solid {
-                                    margin-left: 8px;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        .map-container {
-            position: relative;
-            margin-bottom: 50px;
-
-            .map-img {
-                width: 100%;
-                height: auto;
-                display: block;
-            }
-
-            .contact-form {
-                position: absolute;
-                top: -550px;
-                right: 0px;
-                left: 620px;
-                width: 100%;
-                max-width: 600px;
-                margin: auto;
-                background-color: #fff;
-                padding: 20px;
-                border-radius: 8px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                z-index: 10;
-
-                .input-group {
-                }
-
-
-                span {
-                    color: var(--color-gray-600);
-                }
-
-                .select {
-                    .selected {
-                        padding: 15px;
-                    }
-                }
-
-                textarea {
-                    width: 100%;
-                    height: 200px;
-                    resize: none;
-                }
-
-                .button-send-request {
-                    padding: 25px 0px;
-                }
-            }
-        }
-    }
-}*/
 #cookie-consent {
   padding: 1.5rem 0 !important;
   border-radius: 0;
